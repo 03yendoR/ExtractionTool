@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>327</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Prototype</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 63, 90);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="Gb_TextIdentifier">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>11</y>
+      <width>290</width>
+      <height>170</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(235, 217, 200);</string>
+    </property>
+    <property name="title">
+     <string>Text Identifier</string>
+    </property>
+    <widget class="QPushButton" name="Btn_Delete">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>125</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(222, 102, 0);
+color: rgb(235, 217, 200);</string>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_Add">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>28</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(222, 102, 0);
+color: rgb(235, 217, 200);</string>
+     </property>
+     <property name="text">
+      <string>Add</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Line_Path_2">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>29</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="List_Text">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>60</y>
+       <width>261</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(255, 255, 255);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>asdasd</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Gb_FileExtraction">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>190</y>
+      <width>290</width>
+      <height>204</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(235, 217, 200);</string>
+    </property>
+    <property name="title">
+     <string>File Extraction</string>
+    </property>
+    <widget class="QPushButton" name="Btn_Extract">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>160</y>
+       <width>261</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(222, 102, 0);
+color: rgb(235, 217, 200);</string>
+     </property>
+     <property name="text">
+      <string>Extract</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_Destination">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>62</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(222, 102, 0);
+color: rgb(235, 217, 200);</string>
+     </property>
+     <property name="text">
+      <string>Destination</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Line_Destination">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>63</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Rb_Remove">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>129</y>
+       <width>82</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Remove</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Rb_Save">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>129</y>
+       <width>51</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Btn_Source">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>28</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(222, 102, 0);
+color: rgb(235, 217, 200);</string>
+     </property>
+     <property name="text">
+      <string>Source</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Line_Source">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>29</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Cb_Connect2Web">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>100</y>
+       <width>111</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Connect2Web</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
